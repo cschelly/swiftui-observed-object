@@ -13,10 +13,12 @@
 		CF6A702C2381A53700280E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6A702B2381A53700280E57 /* Assets.xcassets */; };
 		CF6A702F2381A53700280E57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6A702E2381A53700280E57 /* Preview Assets.xcassets */; };
 		CF6A70322381A53700280E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A70302381A53700280E57 /* LaunchScreen.storyboard */; };
+		CF6A703A2381A64C00280E57 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A70392381A64C00280E57 /* Product.swift */; };
+		CF6A703C2381F32000280E57 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A703B2381F32000280E57 /* CardImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF6A70222381A53400280E57 /* ObservableObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6A70222381A53400280E57 /* ObservableObject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableObject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6A70252381A53400280E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF6A70272381A53400280E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF6A70292381A53400280E57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		CF6A702E2381A53700280E57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF6A70312381A53700280E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6A70332381A53700280E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6A70392381A64C00280E57 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CF6A703B2381F32000280E57 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		CF6A70232381A53400280E57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF6A70222381A53400280E57 /* ObservableObject.app */,
+				CF6A70222381A53400280E57 /* ObservableObject1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				CF6A70252381A53400280E57 /* AppDelegate.swift */,
 				CF6A70272381A53400280E57 /* SceneDelegate.swift */,
 				CF6A70292381A53400280E57 /* ContentView.swift */,
+				CF6A70392381A64C00280E57 /* Product.swift */,
+				CF6A703B2381F32000280E57 /* CardImageView.swift */,
 				CF6A702B2381A53700280E57 /* Assets.xcassets */,
 				CF6A70302381A53700280E57 /* LaunchScreen.storyboard */,
 				CF6A70332381A53700280E57 /* Info.plist */,
@@ -92,7 +98,7 @@
 			);
 			name = ObservableObject;
 			productName = ObservableObject;
-			productReference = CF6A70222381A53400280E57 /* ObservableObject.app */;
+			productReference = CF6A70222381A53400280E57 /* ObservableObject1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6A703C2381F32000280E57 /* CardImageView.swift in Sources */,
 				CF6A70262381A53400280E57 /* AppDelegate.swift in Sources */,
+				CF6A703A2381A64C00280E57 /* Product.swift in Sources */,
 				CF6A70282381A53400280E57 /* SceneDelegate.swift in Sources */,
 				CF6A702A2381A53400280E57 /* ContentView.swift in Sources */,
 			);
@@ -292,8 +300,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.ObservableObject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.ObservableObject1;
+				PRODUCT_NAME = ObservableObject1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,8 +319,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.ObservableObject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.ObservableObject1;
+				PRODUCT_NAME = ObservableObject1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
